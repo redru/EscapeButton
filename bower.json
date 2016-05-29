@@ -1,0 +1,20 @@
+{
+  "name": "escape-button",
+  "description": "",
+  "private": true,
+  "authors": [
+    "Luca Zenobi"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/redru/EscapeButton",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4"
+  }
+}
