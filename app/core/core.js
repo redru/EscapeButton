@@ -1,21 +1,19 @@
 "use strict";
+
 (function() {
 
-    var devUI = { };
+    var devUI = {
+        timer: undefined
+    };
 
     // On load
     $(window).load(function() {
 
-        if ( $('timer').length )
-            devUI.timer = $('timer');
+        devUI.timer = $('timer');
 
         _main_loop();
     });
 
-    /**
-     *
-     * @private
-     */
     function _main_loop() {
         var milliseconds = 0;
 
