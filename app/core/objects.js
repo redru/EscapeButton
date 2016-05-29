@@ -1,16 +1,14 @@
 "use strict";
 
 function Character(id, position) {
-    { // Constructor
-        var _element = $('#' + id);
+    var _element = $('#' + id);
 
-        var _position = {x: 0, y: 0};
-        var _size = { x: _element.width(), y: _element.height() };
-        var _speed = {x: 1, y: 1};
+    var _position = {x: 0, y: 0};
+    var _size = { x: _element.width(), y: _element.height() };
+    var _speed = {x: 1, y: 1};
 
-        if (position)
-            _moveTo(position);
-    }
+    if (position)
+        _moveTo(position);
 
     // PRIVATE --------------------------------------------
 
