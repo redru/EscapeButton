@@ -1,4 +1,8 @@
 # IDEA
-idea/*
+.idea
 
 # APPLICATION
+
+# NODE
+node_modules
+bower_components
